@@ -1,2 +1,2 @@
 # html-and-css-tutorials
-html/css tutorials
+html/css Tutorials
