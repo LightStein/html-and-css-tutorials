@@ -8,11 +8,43 @@
 </head>
 <body>
     <form action="/">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <input type="reset" value="clear this form">
-        <input type="submit" value="send">
+        <label>Phone:
+        <input type="number" name="Phone" required>
+        </label>
+        <br>
+        <label>E-mail:
+        <input type="email" name="Email" id="" required>
+        </label>
+        <br>
+        <label>Password:
+        <input type="password" name="Password" id="" required>
+        </label>
+        <br>
+        <label>Confirm Password:
+        <input type="password" name="ConfirmPassword" id="" required>
+        </label>
+        <br>
+        <label>Nickname:
+        <input type="text" name="Nickname" >
+        </label>
+        <br>
+        <label>Habitual Residence:
+        <select name="select" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        </label>
+        <br>
+        <label>Website
+        <input type="url" placeholder="Website" name="Website" id="">
+        </label>
+        <br>
+        <input type="checkbox"name="agreement"> I have read the <a href="github.com/LightStein">agreement</a>
+        <br>
+        <input type="submit" value="Register">
+        <br>
+
     </form>
     
 
