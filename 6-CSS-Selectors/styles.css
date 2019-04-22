@@ -1,3 +1,7 @@
-main > p{
-    color: green;
-        }
+li:first-child {
+color: green;
+}
+
+li:last-child {
+color: red;
+}
