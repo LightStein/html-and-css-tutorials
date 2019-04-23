@@ -1,12 +1,4 @@
-.link {
-	font-family: Arial, Helvetica, sans-serif;
-	text-decoration: none;
-}
-
-.link-category {
-  color: green;
-}
-
-.link-large {
-  font-size: 24px;
-}
+.button1 {background-color: rgb(0, 191, 255); border-radius: 5px; border: none; -webkit-text-fill-color: white;}
+.button2 {border-radius: 5px; background-color: white; -webkit-text-fill-color: black; border-width: 1px;}
+.button3 {border-radius: 5px; background-color: white; -webkit-text-fill-color: black; border: dashed; border-width: 1px} 
+.button4 {border-radius: 5px; background-color: #e7e7e7; color: red; border-width: 1px}
