@@ -1,7 +1,9 @@
-
-.example {
-    display: inline-block;
-    background-color: blue;
-    width: 100px;
-    height: 100px;
+.myTable{
+    display: table;
+}
+.myTr{
+    display: table-row;
+}
+.MyTd{
+    display: table-cell;
 }
