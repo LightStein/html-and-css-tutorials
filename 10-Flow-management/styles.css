@@ -5,26 +5,24 @@ div, header, footer{
 
 }
 header, footer{
-    width: 1000px;
+    width: 900px;
 }
 main{
     margin: 0 auto;
-    width: 1000px;
+    width: 900px;
 }
 
-.col-1{
+.cell{
     width: 250px;
-    float: left
-}
-
-.col-2{
-    width: 250px;
-    float: right
-}
-
-.col-3{
-    width: 300px;
-    clear: both;
-    margin: auto;
+    float: left;
+    margin-right: 75px;
     margin-bottom: 30px;
+}
+
+.margin-right-0{
+    margin-right: 0px;
+}
+
+footer{
+    clear: both;
 }
