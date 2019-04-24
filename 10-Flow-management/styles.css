@@ -1,0 +1,30 @@
+div, header, footer{
+    background-color: blue;
+    height: 200px;
+    margin-bottom: 30px;
+
+}
+header, footer{
+    width: 1000px;
+}
+main{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.col-1{
+    width: 250px;
+    float: left
+}
+
+.col-2{
+    width: 250px;
+    float: right
+}
+
+.col-3{
+    width: 300px;
+    clear: both;
+    margin: auto;
+    margin-bottom: 30px;
+}
