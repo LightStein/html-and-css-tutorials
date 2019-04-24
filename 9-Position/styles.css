@@ -1,18 +1,20 @@
+span{
+    display: block;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    background-color: white;
+    padding: 0px 20px;
+    font-size: 30px;
+    
+}
 section{
     position: relative;
-    width: 500px;
-    height: 170px;
-    border: black solid 2px;
 }
 
-.exit{
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    color: grey;
+hr{
     display: block;
-}
-
-p{
-    color: grey;
+    position: relative;
+    top: 100px; 
+    color: white;
 }
