@@ -7,28 +7,10 @@ section{
 }
 section div{
     position: absolute;
+    top: 50%;
+    left: 50%;
     width: 100px;
     height: 100px;
     background-color: white;
-
-}
-
-.a {
-    top: 10px;
-    left: 10px;
-}
-
-.b {
-    top: 10px;
-    right: 10px;
-}
-
-.c {
-    bottom: 10px;
-    left: 10px;
-}
-
-.d {
-    bottom: 10px;
-    right: 10px;
+    transform: translateX(-50%) translateY(-50%)
 }
