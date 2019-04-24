@@ -1,34 +1,18 @@
 section{
     position: relative;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    background-color: grey;
-    border-radius: 25px;
+    width: 500px;
+    height: 170px;
+    border: black solid 2px;
 }
 
-div{
+.exit{
     position: absolute;
-    min-width: 40px;
-    text-align: center;
-    top: -15px;
-    right: -25px;
-    background-color: red;
-    border-radius: 30px;
-    padding: 4px 0px;
-}
-#a{
-    top: 50px
+    right: 10px;
+    top: 10px;
+    color: grey;
+    display: block;
 }
 
-#b{
-    top: -50px;
-    left: 200px;
-}
-span{
-    display: inline-block;
-    text-align: center;
-    
-    font-size: 25px;
-    color: white;
+p{
+    color: grey;
 }
