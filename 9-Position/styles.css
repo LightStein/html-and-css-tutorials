@@ -1,0 +1,34 @@
+section{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+}
+section div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+
+}
+
+.a {
+    top: 10px;
+    left: 10px;
+}
+
+.b {
+    top: 10px;
+    right: 10px;
+}
+
+.c {
+    bottom: 10px;
+    left: 10px;
+}
+
+.d {
+    bottom: 10px;
+    right: 10px;
+}
