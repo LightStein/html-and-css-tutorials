@@ -44,11 +44,11 @@ div{
 }
 
 .col-1, .col-2{
-    flex-grow: 1;
+    margin-right: 30px;
 }
 
-.col-3{
-    width: 60%;
+.col-1, .col-2, .col-3{
+    flex-grow: 1;
 }
 
 .second-row{
