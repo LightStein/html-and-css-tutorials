@@ -10,9 +10,52 @@ body{
     -webkit-font-smoothing: antialiased;
 }
 
-h1{
-    font-family: 'lobster';
+main{
+    width: 680px;
+
 }
-h2{
-    font-family: 'pt_sans'
+
+article{
+    width: 100%;
+    height: 640px;
+    border: solid #ECF0F1 1px;
+    padding: 20px;
+}
+article .poster{
+    width: 640px;
+    height: 350px;
+    background-color: #A1B1BC;
+    margin-bottom: 14px;
+}
+article header h1{
+    font-family: 'lobster';
+    font-size: 24px;
+    line-height: 30px;
+    color: #21C2F8;
+}
+
+article header p{
+    color: #A1B1BC;
+    font-family: 'PT Sans';
+    line-height: 30px;
+    font-size: 14px;
+}
+article header p span::after{
+    font-weight: 100;
+    content: '';
+}
+.separator{
+    color: #EBEBEB;
+}
+
+.text{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    color: #A1B1BC;
+    font-weight: 50;
+}
+
+a{
+    text-emphasis: none;
+    color:#21C2F8;
 }
